@@ -21,13 +21,13 @@ public class CustomerTest extends BaseTest {
 	    String email = "test" + System.currentTimeMillis() + "@gmail.com";
 
 	    customerPage.createCustomer(
-	            "Hema",
-	            "01011990",
+	            "Dhathri",
+	            "01011880",
 	            "Hyderabad",
 	            "Hyderabad",
 	            "Telangana",
-	            "500001",
-	            "9876543210",
+	            "500031",
+	            "98786340367",
 	            email,
 	            "password123"
 	    );
