@@ -3,12 +3,12 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 This project is a robust, production-grade automation framework developed for the **Guru99 Online Banking Portal**. It follows the **Page Object Model (POM)** design pattern to ensure scalability, reusability, and clean code separation.
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+##  Tech Stack & Dependencies
 * **Language:** Java 11
 * **Automation:** Selenium WebDriver 4.21.0
 * **Test Runner:** TestNG 7.9.0
@@ -18,7 +18,7 @@ This project is a robust, production-grade automation framework developed for th
 
 ---
 
-## 🏗️ Framework Architecture
+##  Framework Architecture
 The framework is built with a clear separation of concerns to meet all hackathon business rules:
 
 * **`BasePage`**: Contains reusable synchronization methods using `WebDriverWait` (**Strictly zero `Thread.sleep()`**).
@@ -43,7 +43,7 @@ The framework is built with a clear separation of concerns to meet all hackathon
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 ```text
 bankbot-framework/
 ├── src/test/java/
@@ -57,3 +57,8 @@ bankbot-framework/
 ├── reports/             # ExtentReport HTML output
 ├── testng.xml           # Suite execution runner
 └── pom.xml              # Maven dependencies
+
+
+
+
+Developed By Dhathri Putty

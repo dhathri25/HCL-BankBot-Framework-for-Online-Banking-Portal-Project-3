@@ -24,6 +24,7 @@ public class NewCustomerPage extends BasePage {
     private By email = By.name("emailid");
     private By password = By.name("password");
     private By submitBtn = By.name("sub");
+    
 
     private By successMsg = By.xpath("//p[@class='heading3']");
 

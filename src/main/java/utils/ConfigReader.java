@@ -15,6 +15,7 @@ public class ConfigReader {
             properties.load(fis);
         } catch (IOException e) {
             e.printStackTrace();
+            
         }
     }
 

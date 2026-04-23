@@ -19,6 +19,7 @@ public class FundTransferPage extends BasePage {
     private By submitBtn = By.name("AccSubmit");
     private By successMsg = By.xpath("//p[@class='heading3']");
 
+    
     public void clickFundTransfer() {
         scrollIntoView(fundTransferLink);
         jsClick(fundTransferLink);

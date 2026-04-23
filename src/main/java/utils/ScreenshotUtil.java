@@ -27,6 +27,7 @@ public class ScreenshotUtil {
             Files.copy(src.toPath(), dest.toPath(), java.nio.file.StandardCopyOption.REPLACE_EXISTING);
         } catch (IOException e) {
             e.printStackTrace();
+            
         }
 
         return path;

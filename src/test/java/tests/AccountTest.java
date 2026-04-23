@@ -3,7 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
 import pages.LoginPage;
 import pages.NewAccountPage;
 
@@ -49,9 +48,6 @@ public class AccountTest extends BaseTest {
         String accId2 = accountPage.getAccountId();
         System.out.println("Account2 ID: " + accId2);
 
-        // =========================
-        // ✅ STORE BOTH ACCOUNTS
-        // =========================
         System.setProperty("accId1", accId1);
         System.setProperty("accId2", accId2);
     }
