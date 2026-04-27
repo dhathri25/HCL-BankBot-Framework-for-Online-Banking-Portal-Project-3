@@ -3,7 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
 import pages.LoginPage;
 import pages.FundTransferPage;
 
@@ -16,7 +15,7 @@ public class FundTransferTest extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.login("mngr658981", "avEgYzU");
 
-        // Step 2: Go to Fund Transfer
+  
         FundTransferPage fundPage = new FundTransferPage(driver);
         fundPage.clickFundTransfer();
 

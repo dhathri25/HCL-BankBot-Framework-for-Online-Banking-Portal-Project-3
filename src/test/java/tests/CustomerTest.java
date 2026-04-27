@@ -3,7 +3,6 @@ package tests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
 import pages.LoginPage;
 import pages.NewCustomerPage;
 
@@ -14,6 +13,7 @@ public class CustomerTest extends BaseTest {
 
 	    LoginPage loginPage = new LoginPage(driver);
 	    loginPage.login("mngr658981", "avEgYzU");
+	    
 
 	    NewCustomerPage customerPage = new NewCustomerPage(driver);
 	    customerPage.clickNewCustomer();

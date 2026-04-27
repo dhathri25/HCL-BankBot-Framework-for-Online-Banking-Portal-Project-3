@@ -25,6 +25,7 @@ public class LoginPage extends BasePage {
     public void enterUsername(String user) {
         type(username, user);
     }
+    
 
     public void enterPassword(String pass) {
         type(password, pass);

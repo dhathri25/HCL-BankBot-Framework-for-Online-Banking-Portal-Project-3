@@ -20,6 +20,7 @@ public class NewAccountPage extends BasePage {
 
     private By successMsg = By.xpath("//p[@class='heading3']");
 
+    
     // Actions
 
     public void clickNewAccount() {

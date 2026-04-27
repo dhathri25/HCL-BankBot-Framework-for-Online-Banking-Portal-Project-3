@@ -14,6 +14,7 @@ public class ExtentReportManager {
 
             reporter.config().setReportName("BankBot Test Report");
             reporter.config().setDocumentTitle("Automation Report");
+            
 
             extent = new ExtentReports();
             extent.attachReporter(reporter);

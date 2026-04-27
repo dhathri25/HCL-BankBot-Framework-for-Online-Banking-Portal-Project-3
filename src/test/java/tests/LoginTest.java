@@ -10,7 +10,6 @@ import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-import base.BaseTest;
 import pages.LoginPage;
 import utils.ConfigReader;
 
@@ -26,6 +25,7 @@ public class LoginTest extends BaseTest {
             {"wrongUser", "wrongPass", false}
         };
     }
+    
 
     // ✅ Combined login test (valid + invalid)
     @Test(dataProvider = "loginData")

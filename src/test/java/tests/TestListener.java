@@ -1,4 +1,4 @@
-package utils;
+package tests;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;
@@ -6,10 +6,10 @@ import org.testng.ITestResult;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
+import utils.ExtentReportManager;
+import utils.ScreenshotUtil;
+
 import org.openqa.selenium.WebDriver;
-
-
-import base.BaseTest;
 
 public class TestListener implements ITestListener {
 
@@ -25,6 +25,7 @@ public class TestListener implements ITestListener {
     public void onTestSuccess(ITestResult result) {
         test.pass("Test Passed");
     }
+    
 
     @Override
     public void onTestFailure(ITestResult result) {
